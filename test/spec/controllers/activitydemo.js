@@ -3,7 +3,7 @@
 describe('Controller: ActivitydemoCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('hackrtrackrApp'));
+  beforeEach(module('hackrtrackrFrontendApp'));
 
   var ActivitydemoCtrl,
     scope;

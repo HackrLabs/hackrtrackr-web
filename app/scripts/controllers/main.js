@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:MainCtrl
+ * @name hackrtrackrFrontendApp.controller:MainCtrl
  * @description
  * # MainCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',

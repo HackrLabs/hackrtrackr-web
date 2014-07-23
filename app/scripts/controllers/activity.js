@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:ActivityCtrl
+ * @name hackrtrackrFrontendApp.controller:ActivityCtrl
  * @description
  * # ActivityCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('ActivityCtrl', function ($scope, $http) {
     var ctrl = this,
     items = ctrl.items = $scope.items = [];

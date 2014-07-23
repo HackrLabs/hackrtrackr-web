@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:DashboardCtrl
+ * @name hackrtrackrFrontendApp.controller:DashboardCtrl
  * @description
  * # DashboardCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('DashboardCtrl', function ($scope) {
   /* DO NOT REMOVE : GLOBAL FUNCTIONS!
 	 *

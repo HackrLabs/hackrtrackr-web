@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name hackrtrackrApp.directive:localize
+ * @name hackrtrackrFrontendApp.directive:localize
  * @description
  * # localize
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .directive('localize', function (Localize) {
     return {
 			restrict: 'A',

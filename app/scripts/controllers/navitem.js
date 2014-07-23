@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:NavitemCtrl
+ * @name hackrtrackrFrontendApp.controller:NavitemCtrl
  * @description
  * # NavitemCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('NavItemCtrl', function ($scope, $rootScope, $location) {
     $scope.isChild = false;
 		$scope.active = false;

@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name hackrtrackrApp.directive:widgettoolbar
+ * @name hackrtrackrFrontendApp.directive:widgettoolbar
  * @description
  * # widgettoolbar
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .directive('widgetToolbar', function () {
     return {
 			restrict: 'AE',

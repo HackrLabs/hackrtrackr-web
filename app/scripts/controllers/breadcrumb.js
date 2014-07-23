@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:BreadcrumbCtrl
+ * @name hackrtrackrFrontendApp.controller:BreadcrumbCtrl
  * @description
  * # BreadcrumbCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('BreadcrumbCtrl', function ($scope) {
     $scope.breadcrumbs = [];
 		$scope.$on('navItemSelected', function(name, crumbs) {

@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name hackrtrackrApp.directive:widgetcontent
+ * @name hackrtrackrFrontendApp.directive:widgetcontent
  * @description
  * # widgetcontent
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .directive('widgetContent', function () {
     return {
 			restrict: 'AE',

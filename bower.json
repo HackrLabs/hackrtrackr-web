@@ -1,5 +1,5 @@
 {
-  "name": "hackrtrackr-frontend",
+  "name": "hackrtrackrFrontend-frontend",
   "version": "1.0.0",
   "dependencies": {
     "angular": "1.2.16",

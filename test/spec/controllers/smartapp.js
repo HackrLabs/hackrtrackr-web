@@ -3,7 +3,7 @@
 describe('Controller: SmartappCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('hackrtrackrApp'));
+  beforeEach(module('hackrtrackrFrontendApp'));
 
   var SmartappCtrl,
     scope;

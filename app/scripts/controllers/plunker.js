@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:PlunkerCtrl
+ * @name hackrtrackrFrontendApp.controller:PlunkerCtrl
  * @description
  * # PlunkerCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('PlunkerCtrl', function ($scope, PlunkGenerator) {
     $scope.content = {};
 

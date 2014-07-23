@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name hackrtrackrApp.plunkgenerator
+ * @name hackrtrackrFrontendApp.plunkgenerator
  * @description
  * # plunkgenerator
- * Factory in the hackrtrackrApp.
+ * Factory in the hackrtrackrFrontendApp.
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .factory('PlunkGenerator', function ($document) {
     return function (ngVersion, bsVersion, version, module, content) {
 

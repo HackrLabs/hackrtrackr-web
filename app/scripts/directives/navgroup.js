@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name hackrtrackrApp.directive:navgroup
+ * @name hackrtrackrFrontendApp.directive:navgroup
  * @description
  * # navgroup
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .directive('navGroup', function () {
     	return {
 			restrict: 'AE',

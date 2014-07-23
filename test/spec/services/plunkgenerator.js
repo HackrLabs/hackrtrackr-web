@@ -3,7 +3,7 @@
 describe('Service: plunkgenerator', function () {
 
   // load the service's module
-  beforeEach(module('hackrtrackrApp'));
+  beforeEach(module('hackrtrackrFrontendApp'));
 
   // instantiate service
   var plunkgenerator;

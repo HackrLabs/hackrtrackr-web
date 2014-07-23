@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name hackrtrackrApp.directive:activitybutton
+ * @name hackrtrackrFrontendApp.directive:activitybutton
  * @description
  * # activitybutton
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .directive('activityButton', function () {
     return {
 			restrict: 'AE',

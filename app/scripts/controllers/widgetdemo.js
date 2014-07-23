@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:WidgetdemoCtrl
+ * @name hackrtrackrFrontendApp.controller:WidgetdemoCtrl
  * @description
  * # WidgetdemoCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('WidgetDemoCtrl', function ($scope, $sce) {
     $scope.title = 'SmartUI Widget';
 		$scope.icon = 'fa fa-user';

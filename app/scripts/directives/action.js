@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name hackrtrackrApp.directive:action
+ * @name hackrtrackrFrontendApp.directive:action
  * @description
  * # action
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .directive('action', function () {
     return {
 			restrict: 'A',

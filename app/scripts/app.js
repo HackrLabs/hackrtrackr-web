@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name hackrtrackrApp
+ * @name hackrtrackrFrontendApp
  * @description
- * # hackrtrackrApp
+ * # hackrtrackrFrontendApp
  *
  * Main module of the application.
  */
 angular
-  .module('hackrtrackrApp', [
+  .module('hackrtrackrFrontendApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

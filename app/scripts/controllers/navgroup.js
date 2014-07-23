@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:NavgroupCtrl
+ * @name hackrtrackrFrontendApp.controller:NavgroupCtrl
  * @description
  * # NavgroupCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('NavGroupCtrl', function ($scope) {
   	$scope.active = false;
 		$scope.hasIcon = angular.isDefined($scope.icon);

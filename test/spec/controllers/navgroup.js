@@ -3,7 +3,7 @@
 describe('Controller: NavgroupCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('hackrtrackrApp'));
+  beforeEach(module('hackrtrackrFrontendApp'));
 
   var NavgroupCtrl,
     scope;

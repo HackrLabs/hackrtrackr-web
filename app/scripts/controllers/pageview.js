@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:PageviewCtrl
+ * @name hackrtrackrFrontendApp.controller:PageviewCtrl
  * @description
  * # PageviewCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('PageViewCtrl', function ($scope, $route, $animate) {
   });

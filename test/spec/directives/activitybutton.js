@@ -3,7 +3,7 @@
 describe('Directive: activitybutton', function () {
 
   // load the directive's module
-  beforeEach(module('hackrtrackrApp'));
+  beforeEach(module('hackrtrackrFrontendApp'));
 
   var element,
     scope;

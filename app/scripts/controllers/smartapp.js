@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name hackrtrackrApp.controller:SmartappCtrl
+ * @name hackrtrackrFrontendApp.controller:SmartappCtrl
  * @description
  * # SmartappCtrl
- * Controller of the hackrtrackrApp
+ * Controller of the hackrtrackrFrontendApp
  */
-angular.module('hackrtrackrApp')
+angular.module('hackrtrackrFrontendApp')
   .controller('SmartAppCtrl', function ($scope) {
   });
