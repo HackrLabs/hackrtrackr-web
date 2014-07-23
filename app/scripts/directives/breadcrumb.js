@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name smartadminApp.directive:breadcrumb
+ * @name hackrtrackrApp.directive:breadcrumb
  * @description
  * # breadcrumb
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .directive('breadcrumb', function (Ribbon, Localize, $compile) {
     return {
 			restrict: 'AE',

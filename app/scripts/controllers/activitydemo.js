@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name smartadminApp.controller:ActivitydemoCtrl
+ * @name hackrtrackrApp.controller:ActivitydemoCtrl
  * @description
  * # ActivitydemoCtrl
- * Controller of the smartadminApp
+ * Controller of the hackrtrackrApp
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .controller('ActivityDemoCtrl', function ($scope) {
     var ctrl = this;
 		ctrl.getDate = function() {

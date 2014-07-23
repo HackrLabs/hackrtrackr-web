@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name smartadminApp.directive:navitem
+ * @name hackrtrackrApp.directive:navitem
  * @description
  * # navitem
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .directive('navItem', function ($window, Ribbon) {
     return {
 			require: ['^navigation', '^?navGroup'],

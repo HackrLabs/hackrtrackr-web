@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc function
- * @name smartadminApp.controller:PageviewCtrl
+ * @name hackrtrackrApp.controller:PageviewCtrl
  * @description
  * # PageviewCtrl
- * Controller of the smartadminApp
+ * Controller of the hackrtrackrApp
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .controller('PageViewCtrl', function ($scope, $route, $animate) {
   });

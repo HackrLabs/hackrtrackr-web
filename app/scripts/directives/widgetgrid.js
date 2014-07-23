@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name smartadminApp.directive:widgetgrid
+ * @name hackrtrackrApp.directive:widgetgrid
  * @description
  * # widgetgrid
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .directive('widgetGrid', function () {
     return {
 			restrict: 'AE',

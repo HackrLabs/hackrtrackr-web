@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name smartadminApp.directive:navgroup
+ * @name hackrtrackrApp.directive:navgroup
  * @description
  * # navgroup
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .directive('navGroup', function () {
     	return {
 			restrict: 'AE',

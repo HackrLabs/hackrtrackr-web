@@ -3,7 +3,7 @@
 describe('Controller: BreadcrumbCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('smartadminApp'));
+  beforeEach(module('hackrtrackrApp'));
 
   var BreadcrumbCtrl,
     scope;

@@ -3,7 +3,7 @@
 describe('Service: settings', function () {
 
   // load the service's module
-  beforeEach(module('smartadminApp'));
+  beforeEach(module('hackrtrackrApp'));
 
   // instantiate service
   var settings;

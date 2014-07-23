@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name smartadminApp.localize
+ * @name hackrtrackrApp.localize
  * @description
  * # localize
- * Factory in the smartadminApp.
+ * Factory in the hackrtrackrApp.
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .factory('Localize', function ($http, $rootScope, $window) {
     var localize = {
 			currentLocaleData: {},

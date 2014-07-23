@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name smartadminApp.directive:plunkercontent
+ * @name hackrtrackrApp.directive:plunkercontent
  * @description
  * # plunkercontent
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .directive('plunkerContent', function () {
     return {
       link:function (scope, element, attrs) {

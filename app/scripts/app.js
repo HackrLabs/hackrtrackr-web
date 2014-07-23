@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name smartadminApp
+ * @name hackrtrackrApp
  * @description
- * # smartadminApp
+ * # hackrtrackrApp
  *
  * Main module of the application.
  */
 angular
-  .module('smartadminApp', [
+  .module('hackrtrackrApp', [
     'ngAnimate',
     'ngCookies',
     'ngResource',

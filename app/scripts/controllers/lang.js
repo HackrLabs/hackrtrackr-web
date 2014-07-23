@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name smartadminApp.controller:LangCtrl
+ * @name hackrtrackrApp.controller:LangCtrl
  * @description
  * # LangCtrl
- * Controller of the smartadminApp
+ * Controller of the hackrtrackrApp
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .controller('LangCtrl', function ($scope, Settings, Localize) {
     $scope.languages = Settings.languages;
 		$scope.currentLang = Settings.currentLang;

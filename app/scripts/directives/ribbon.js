@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name smartadminApp.directive:ribbon
+ * @name hackrtrackrApp.directive:ribbon
  * @description
  * # ribbon
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .directive('ribbon', function () {
     return {
 			restrict: 'A',

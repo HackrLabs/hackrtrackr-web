@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name smartadminApp.controller:ActivitycontentCtrl
+ * @name hackrtrackrApp.controller:ActivitycontentCtrl
  * @description
  * # ActivitycontentCtrl
- * Controller of the smartadminApp
+ * Controller of the hackrtrackrApp
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .controller('ActivityContentCtrl', function ($scope) {
     var ctrl = this;
 		$scope.currentContent = '';

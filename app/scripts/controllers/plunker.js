@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name smartadminApp.controller:PlunkerCtrl
+ * @name hackrtrackrApp.controller:PlunkerCtrl
  * @description
  * # PlunkerCtrl
- * Controller of the smartadminApp
+ * Controller of the hackrtrackrApp
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .controller('PlunkerCtrl', function ($scope, PlunkGenerator) {
     $scope.content = {};
 

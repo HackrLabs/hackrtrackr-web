@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name smartadminApp.ribbon
+ * @name hackrtrackrApp.ribbon
  * @description
  * # ribbon
- * Factory in the smartadminApp.
+ * Factory in the hackrtrackrApp.
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .factory('Ribbon', function ($rootScope) {
     var ribbon = {
 			currentBreadcrumb: [],

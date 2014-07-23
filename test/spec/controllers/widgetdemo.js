@@ -3,7 +3,7 @@
 describe('Controller: WidgetdemoCtrl', function () {
 
   // load the controller's module
-  beforeEach(module('smartadminApp'));
+  beforeEach(module('hackrtrackrApp'));
 
   var WidgetdemoCtrl,
     scope;

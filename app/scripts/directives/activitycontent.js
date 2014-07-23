@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name smartadminApp.directive:activitycontent
+ * @name hackrtrackrApp.directive:activitycontent
  * @description
  * # activitycontent
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .directive('activityContent', function ($compile) {
     return {
 			restrict: 'AE',

@@ -3,7 +3,7 @@
 describe('Directive: widget', function () {
 
   // load the directive's module
-  beforeEach(module('smartadminApp'));
+  beforeEach(module('hackrtrackrApp'));
 
   var element,
     scope;

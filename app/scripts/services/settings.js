@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc service
- * @name smartadminApp.settings
+ * @name hackrtrackrApp.settings
  * @description
  * # settings
- * Factory in the smartadminApp.
+ * Factory in the hackrtrackrApp.
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .factory('Settings', function () {
     var settings = {
 			languages: [

@@ -3,7 +3,7 @@
 describe('Service: ribbon', function () {
 
   // load the service's module
-  beforeEach(module('smartadminApp'));
+  beforeEach(module('hackrtrackrApp'));
 
   // instantiate service
   var ribbon;

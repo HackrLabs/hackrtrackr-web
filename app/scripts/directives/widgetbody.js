@@ -2,11 +2,11 @@
 
 /**
  * @ngdoc directive
- * @name smartadminApp.directive:widgetbody
+ * @name hackrtrackrApp.directive:widgetbody
  * @description
  * # widgetbody
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .directive('widgetBody', function () {
     return {
 			restrict: 'AE',

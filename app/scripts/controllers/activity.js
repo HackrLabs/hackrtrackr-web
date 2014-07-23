@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name smartadminApp.controller:ActivityCtrl
+ * @name hackrtrackrApp.controller:ActivityCtrl
  * @description
  * # ActivityCtrl
- * Controller of the smartadminApp
+ * Controller of the hackrtrackrApp
  */
-angular.module('smartadminApp')
+angular.module('hackrtrackrApp')
   .controller('ActivityCtrl', function ($scope, $http) {
     var ctrl = this,
     items = ctrl.items = $scope.items = [];
