@@ -1,0 +1,166 @@
+<!doctype html>
+<html class="no-js" data-ng-app="smartadminApp">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/components-font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="bower_components/morris.js/morris.css" />
+    <link rel="stylesheet" href="bower_components/nvd3/src/nv.d3.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <link rel="stylesheet" type="text/css" media="screen" href="styles/smartadmin-production.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="styles/smartadmin-skins.css">
+		<!-- SmartAdmin RTL Support is under construction-->
+		<link rel="stylesheet" type="text/css" media="screen" href="styles/smartadmin-rtl.css">
+		<!-- We recommend you use "your_style.css" to override SmartAdmin
+		     specific styles this will also ensure you retrain your customization with each SmartAdmin update.
+		<link rel="stylesheet" type="text/css" media="screen" href="css/your_style.css"> -->
+		<!-- Demo purpose only: goes with demo.js, you can delete this css when designing your own WebApp -->
+		<link rel="stylesheet" type="text/css" media="screen" href="styles/demo.css" />
+		<!-- Angular Related CSS -->
+		<link rel="stylesheet" type="text/css" media="screen" href="styles/animate.css" />
+
+
+  </head>
+  <body data-ng-controller="SmartAppCtrl">
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <!-- HEADER -->
+		<header id="header" data-ng-include="'views/includes/header.html'"></header>
+		<!-- END HEADER -->
+
+		<!-- Left panel : Navigation area -->
+		<!-- Note: This width of the aside area can be adjusted through LESS variables -->
+		<aside id="left-panel"><span data-ng-include="'views/includes/left-panel.html'"></span></aside>
+		<!-- END NAVIGATION -->
+
+		<!-- MAIN PANEL -->
+		<div id="main" role="main">
+
+			<!-- RIBBON -->
+			<div id="ribbon" data-ng-include="'views/includes/ribbon.html'" data-ribbon=""></div>
+			<!-- END RIBBON -->
+
+			<!-- MAIN CONTENT -->
+			<div id="content" data-ng-view="" class="view-animate"></div>
+			<!-- END MAIN CONTENT -->
+
+		</div>
+		<!-- END MAIN PANEL -->
+
+		<!-- PAGE FOOTER -->
+		<div class="page-footer"><span data-ng-include="'views/includes/footer.html'"></span></div>
+		<!-- END FOOTER -->
+
+		<!-- SHORTCUT AREA : With large tiles (activated via clicking user name tag)
+		Note: These tiles are completely responsive,
+		you can add as many as you like
+		-->
+		<div id="shortcut"><span data-ng-include="'views/includes/shortcut.html'"></span></div>
+		<!-- END SHORTCUT AREA -->
+
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
+     <script>
+       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-XXXXX-X');
+       ga('send', 'pageview');
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="bower_components/es5-shim/es5-shim.js"></script>
+    <script src="bower_components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/json3/lib/json3.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
+    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="bower_components/jqueryui/jquery-ui.js"></script>
+    <script src="bower_components/angular-flot/angular-flot.js"></script>
+    <script src="bower_components/flot/jquery.flot.js"></script>
+    <script src="bower_components/angular.easy-pie-chart/dist/jquery.easypiechart.js"></script>
+    <script src="bower_components/ng-sparkline/angular-sparkline.js"></script>
+    <script src="bower_components/ng-sparkline/jquery.sparkline.js"></script>
+    <script src="bower_components/raphael/raphael.js"></script>
+    <script src="bower_components/mocha/mocha.js"></script>
+    <script src="bower_components/morris.js/morris.js"></script>
+    <script src="bower_components/chart-angular-raphaeljs-morris/src/directives/chartangular.js"></script>
+    <script src="bower_components/d3/d3.js"></script>
+    <script src="bower_components/nvd3/nv.d3.js"></script>
+    <script src="bower_components/angularjs-nvd3-directives/dist/angularjs-nvd3-directives.js"></script>
+    <!-- endbower -->
+    <script src="bower_components/angular.easy-pie-chart/dist/angular.easypiechart.js"></script>
+    <!-- endbuild -->
+
+        <script src="scripts/custom-jquery.js"></script>
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/about.js"></script>
+        <script src="scripts/services/settings.js"></script>
+        <script src="scripts/controllers/pageview.js"></script>
+        <script src="scripts/controllers/smartapp.js"></script>
+        <script src="scripts/controllers/lang.js"></script>
+        <script src="scripts/controllers/activitydemo.js"></script>
+        <script src="scripts/services/localize.js"></script>
+        <script src="scripts/directives/localize.js"></script>
+        <script src="scripts/directives/body.js"></script>
+        <script src="scripts/services/ribbon.js"></script>
+        <script src="scripts/directives/action.js"></script>
+        <script src="scripts/directives/header.js"></script>
+        <script src="scripts/directives/ribbon.js"></script>
+        <script src="scripts/controllers/breadcrumb.js"></script>
+        <script src="scripts/directives/breadcrumb.js"></script>
+        <script src="scripts/directives/navigation.js"></script>
+        <script src="scripts/controllers/navgroup.js"></script>
+        <script src="scripts/directives/navgroup.js"></script>
+        <script src="scripts/controllers/navitem.js"></script>
+        <script src="scripts/directives/navitem.js"></script>
+        <script src="scripts/controllers/activity.js"></script>
+        <script src="scripts/directives/activity.js"></script>
+        <script src="scripts/directives/activitybutton.js"></script>
+        <script src="scripts/controllers/activitycontent.js"></script>
+        <script src="scripts/directives/activitycontent.js"></script>
+        <script src="scripts/directives/activityitem.js"></script>
+        <script src="scripts/directives/widgetgrid.js"></script>
+        <script src="scripts/directives/widget.js"></script>
+        <script src="scripts/directives/widgetheader.js"></script>
+        <script src="scripts/directives/widgettoolbar.js"></script>
+        <script src="scripts/directives/widgeteditbox.js"></script>
+        <script src="scripts/directives/widgetbody.js"></script>
+        <script src="scripts/directives/widgetbodytoolbar.js"></script>
+        <script src="scripts/directives/widgetcontent.js"></script>
+        <script src="scripts/controllers/plunker.js"></script>
+        <script src="scripts/services/plunkgenerator.js"></script>
+        <script src="scripts/directives/plunkercontent.js"></script>
+        <script src="scripts/controllers/widgetdemo.js"></script>
+        <script src="scripts/controllers/dashboard.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
